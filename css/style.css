@@ -1,0 +1,74 @@
+/* Utilities */
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  color: #fff;
+  list-style-type: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.background-primary {
+  background-color: var(--primary-color);
+}
+
+.background-secondary {
+  background-color: var(--secondary-color);
+}
+
+.background-dark {
+  background-color: var(--dark-color);
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
+.love-color {
+  color: #ffb6c1;
+}
+
+/* Navbar */
+
+.nav-item a:hover {
+  border-bottom: 2px #fff solid;
+}
+
+/* Showcase */
+.showcase {
+  padding-top: 4rem;
+  height: 100%;
+  color: #fff;
+}
+
+.showcase img {
+  width: 200px;
+}
+
+/* Footer */
+.footer {
+  padding-bottom: 1rem;
+}
+
+.footer .col-md-4 a {
+  margin: 10px 10px;
+}
+
+.social-icon i {
+  padding-bottom: 10px;
+}
